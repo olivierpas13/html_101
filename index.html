@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Olivier Paspuel" />
+    <meta
+      name="description"
+      content="This web page contains everything I'm learning about HTML."
+    />
+    <title>My first web page</title>
+    <link rel="icon" href="bienes-raices.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hello World!</h1>
+      <p>Keloke</p>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="#technologies_to_learn">Technologies to learn</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#ubication">Ubication</a></li>
+          <li><a href="about_me.html">About me</a></li>
+          <li><a href="form">Example of form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article id="technologies_to_learn">
+      <div>
+      <h2>Ready to learn!</h2>
+        <p>I will learn the following technologies:</p>
+        <ol>
+          <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </div>
+      <figure>
+        <img
+          src="img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+          alt="Programming image"
+          title="Programming"
+          width="600"
+          height="400"
+        />
+        <figcaption>Person programming</figcaption>
+      </figure>
+    </article>
+    <section id="schedule">
+      <h3>My schedule</h3>
+      <ul>
+        <li>Let me explain</li>
+        <li>
+          <p>
+            First, I'll learn
+            <a
+              href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics"
+              >HTML</a
+            >
+          </p>
+        </li>
+        <li><p>Then, I'll learn CSS</p></li>
+        <li><p>Finally, I'll learn JavaScript</p></li>
+      </ul>
+      <aside>
+        <details>
+          <summary>What is <mark>JavaScript?</mark></summary>
+          <p>
+            JavaScript es el lenguaje de programación que debes usar para
+            añadir características interactivas a tu sitio web, (por ejemplo,
+            juegos, eventos que ocurren cuando los botones son presionados o
+            los datos son introducidos en los formularios, efectos de estilo
+            dinámicos, animación, y mucho más).
+          </p>
+        </details>
+      </aside>
+      <figure>
+        <img
+          src="img/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg"
+          alt="Another programming image"
+          title="Programming image"
+          loading="lazy"
+          width="500"
+          height="350"
+        />
+        <figcaption>Another person programming</figcaption>
+      </figure>
+    </section>
+    <hr />
+    <section id="ubication">
+      <h2>Ubication!</h2>
+      <p>So, I live in:</p>
+      <address>
+        Calle Galte <br />
+        Av. Rodrigo de Chavez <br />
+      </address>
+    </section>
+    <h3>My Goal</h3>
+    <dl>
+      <dt>To live alone:</dt>
+      <dd>Be able to live alone</dd>
+    </dl>
+    <hr />
+      <table>
+        <caption>New Table</caption>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th>Programming languages</th>
+            <th>Difficulties</th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <th>Friendly languages</th>
+              <td>Python</td>
+              <td>Very friendly language for beginners</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Cryptic languages</th>
+              <td rowspan="2">C</td>
+              <td>The complete opossite of Python,<br> very cryptic</td>
+            </tr>
+            <tr>
+              <td>Another row in c, cause of rowspan</td>
+            </tr>
+            <tr>
+              <th>This is a table row header</th>
+              <td>HTML</td>
+              <td>Not really difficult but it has<br> a lot of things to learn</td>
+            </tr>
+            <tr>
+            <td colspan="3">Every programming language can become challenging,<br> but you should try to know at least a bit about every one</td>
+            </tr>
+            <hr>
+            <article id="form">
+              <h2>This is going to be a form</h2>
+              <form action="https://htttpbin.orge/get" method="get">
+
+                <p>
+                <label for="firstname">First Name </label>
+                <input type="text" name="firstname" id="firstname" placeholder="Placeholder" autocomplete="on" required>
+                </p>
+                <p>
+                <label for="lastname">Last name </label>
+                <input type="text" name="lastname" id="lastname" placeholder="Keloke" 
+                autocomplete="on" required>
+                </p>
+                <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Your password" required>
+                </p>
+                <p>
+                <label for="phone">Phone number </label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" 
+                required>
+                </p>
+                <p>
+                  <label for="number">DE</label>
+                </p>
+
+              </form>
+            </article>
+            <br><br><br><br>
+
+          </tbody>
+      </table>
+    <footer>
+      &lt;&lt;&lt;&copy;
+      <a href="about_me.html">Olivier Paspuel</a> &gt;&gt;&gt;
+    </footer>
+  </body>
+</html>
